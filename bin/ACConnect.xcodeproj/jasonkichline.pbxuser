@@ -16,6 +16,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -57,7 +58,7 @@
 	};
 	10739F81134BB983001FC4EA /* ACWebDAVLock.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {973, 468}}";
+			sepNavIntBoundsRect = "{{0, 0}, {973, 445}}";
 			sepNavSelRange = "{195, 0}";
 			sepNavVisRange = "{0, 648}";
 		};
@@ -197,6 +198,16 @@
 		vrLen = 648;
 		vrLoc = 0;
 	};
+	1073A5C1134BBDB4001FC4EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 10739F81134BB983001FC4EA /* ACWebDAVLock.h */;
+		name = "ACWebDAVLock.h: 11";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
 	1D6058900D05DD3D006BFB54 /* ACConnect */ = {
 		activeExec = 0;
 		executables = (
@@ -254,6 +265,7 @@
 			1073A58B134BBC56001FC4EA /* PBXTextBookmark */ = 1073A58B134BBC56001FC4EA /* PBXTextBookmark */;
 			1073A590134BBC6E001FC4EA /* PBXTextBookmark */ = 1073A590134BBC6E001FC4EA /* PBXTextBookmark */;
 			1073A591134BBC70001FC4EA /* PBXTextBookmark */ = 1073A591134BBC70001FC4EA /* PBXTextBookmark */;
+			1073A5C1134BBDB4001FC4EA /* PBXTextBookmark */ = 1073A5C1134BBDB4001FC4EA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 10739E8E134BB68D001FC4EA /* Source Control */;
 		userBuildSettings = {
