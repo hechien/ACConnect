@@ -44,9 +44,9 @@
 	};
 	10739F6B134BB983001FC4EA /* ACHTTPReachability.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1024, 1131}}";
+			sepNavIntBoundsRect = "{{0, 0}, {973, 1157}}";
 			sepNavSelRange = "{3895, 0}";
-			sepNavVisRange = "{1887, 1322}";
+			sepNavVisRange = "{1887, 1321}";
 		};
 	};
 	10739F6D134BB983001FC4EA /* ACHTTPRequest.h */ = {
@@ -58,9 +58,9 @@
 	};
 	10739F6E134BB983001FC4EA /* ACHTTPRequest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1321, 3627}}";
-			sepNavSelRange = "{66, 0}";
-			sepNavVisRange = "{0, 778}";
+			sepNavIntBoundsRect = "{{0, 0}, {1552, 3419}}";
+			sepNavSelRange = "{5326, 0}";
+			sepNavVisRange = "{4167, 1261}";
 			sepNavWindowFrame = "{{15, 4}, {779, 1024}}";
 		};
 	};
@@ -117,6 +117,13 @@
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 0;
+	};
+	1073A653134BC1E4001FC4EA /* JSONKit.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 39156}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1666}";
+		};
 	};
 	1D6058900D05DD3D006BFB54 /* ACConnect */ = {
 		activeExec = 0;
