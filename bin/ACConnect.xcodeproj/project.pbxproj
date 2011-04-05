@@ -19,7 +19,7 @@
 		10739FD4134BB983001FC4EA /* ACFTPMakeDirectoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F67134BB983001FC4EA /* ACFTPMakeDirectoryRequest.m */; };
 		10739FD5134BB983001FC4EA /* ACFTPPutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F69134BB983001FC4EA /* ACFTPPutRequest.m */; };
 		10739FD6134BB983001FC4EA /* ACHTTPReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F6C134BB983001FC4EA /* ACHTTPReachability.m */; };
-		10739FD7134BB983001FC4EA /* ACHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F6E134BB983001FC4EA /* ACHTTPClient.m */; };
+		10739FD7134BB983001FC4EA /* ACHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F6E134BB983001FC4EA /* ACHTTPRequest.m */; };
 		10739FD8134BB983001FC4EA /* ACS3Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F72134BB983001FC4EA /* ACS3Client.m */; };
 		10739FD9134BB983001FC4EA /* ACS3DummyFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10739F73134BB983001FC4EA /* ACS3DummyFile.txt */; };
 		10739FDA134BB983001FC4EA /* ACWebDAVClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 10739F77134BB983001FC4EA /* ACWebDAVClient.m */; };
@@ -77,6 +77,7 @@
 		1073A60C134BBDBF001FC4EA /* ASIS3Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073A5F5134BBDBF001FC4EA /* ASIS3Request.m */; };
 		1073A60D134BBDBF001FC4EA /* ASIS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073A5F7134BBDBF001FC4EA /* ASIS3ServiceRequest.m */; };
 		1073A60F134BBDCE001FC4EA /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1073A60E134BBDCE001FC4EA /* README */; };
+		1073A654134BC1E4001FC4EA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073A653134BC1E4001FC4EA /* JSONKit.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -111,8 +112,8 @@
 		10739F69134BB983001FC4EA /* ACFTPPutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFTPPutRequest.m; sourceTree = "<group>"; };
 		10739F6B134BB983001FC4EA /* ACHTTPReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHTTPReachability.h; sourceTree = "<group>"; };
 		10739F6C134BB983001FC4EA /* ACHTTPReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHTTPReachability.m; sourceTree = "<group>"; };
-		10739F6D134BB983001FC4EA /* ACHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHTTPClient.h; sourceTree = "<group>"; };
-		10739F6E134BB983001FC4EA /* ACHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHTTPClient.m; sourceTree = "<group>"; };
+		10739F6D134BB983001FC4EA /* ACHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHTTPRequest.h; sourceTree = "<group>"; };
+		10739F6E134BB983001FC4EA /* ACHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHTTPRequest.m; sourceTree = "<group>"; };
 		10739F71134BB983001FC4EA /* ACS3Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACS3Client.h; sourceTree = "<group>"; };
 		10739F72134BB983001FC4EA /* ACS3Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACS3Client.m; sourceTree = "<group>"; };
 		10739F73134BB983001FC4EA /* ACS3DummyFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACS3DummyFile.txt; sourceTree = "<group>"; };
@@ -227,6 +228,8 @@
 		1073A5F6134BBDBF001FC4EA /* ASIS3ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ServiceRequest.h; sourceTree = "<group>"; };
 		1073A5F7134BBDBF001FC4EA /* ASIS3ServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3ServiceRequest.m; sourceTree = "<group>"; };
 		1073A60E134BBDCE001FC4EA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = SOURCE_ROOT; };
+		1073A652134BC1E4001FC4EA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1073A653134BC1E4001FC4EA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* ACConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -313,10 +316,11 @@
 		10739F6A134BB983001FC4EA /* ACHTTP */ = {
 			isa = PBXGroup;
 			children = (
+				1073A651134BC1E4001FC4EA /* JSONKit */,
 				10739F6B134BB983001FC4EA /* ACHTTPReachability.h */,
 				10739F6C134BB983001FC4EA /* ACHTTPReachability.m */,
-				10739F6D134BB983001FC4EA /* ACHTTPClient.h */,
-				10739F6E134BB983001FC4EA /* ACHTTPClient.m */,
+				10739F6D134BB983001FC4EA /* ACHTTPRequest.h */,
+				10739F6E134BB983001FC4EA /* ACHTTPRequest.m */,
 			);
 			path = ACHTTP;
 			sourceTree = "<group>";
@@ -523,6 +527,15 @@
 			path = S3;
 			sourceTree = "<group>";
 		};
+		1073A651134BC1E4001FC4EA /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				1073A652134BC1E4001FC4EA /* JSONKit.h */,
+				1073A653134BC1E4001FC4EA /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -675,7 +688,7 @@
 				10739FD4134BB983001FC4EA /* ACFTPMakeDirectoryRequest.m in Sources */,
 				10739FD5134BB983001FC4EA /* ACFTPPutRequest.m in Sources */,
 				10739FD6134BB983001FC4EA /* ACHTTPReachability.m in Sources */,
-				10739FD7134BB983001FC4EA /* ACHTTPClient.m in Sources */,
+				10739FD7134BB983001FC4EA /* ACHTTPRequest.m in Sources */,
 				10739FD8134BB983001FC4EA /* ACS3Client.m in Sources */,
 				10739FDA134BB983001FC4EA /* ACWebDAVClient.m in Sources */,
 				10739FDB134BB983001FC4EA /* ACWebDAVCollection.m in Sources */,
@@ -726,6 +739,7 @@
 				1073A60B134BBDBF001FC4EA /* ASIS3ObjectRequest.m in Sources */,
 				1073A60C134BBDBF001FC4EA /* ASIS3Request.m in Sources */,
 				1073A60D134BBDBF001FC4EA /* ASIS3ServiceRequest.m in Sources */,
+				1073A654134BC1E4001FC4EA /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
